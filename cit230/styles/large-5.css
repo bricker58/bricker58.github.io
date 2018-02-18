@@ -1,0 +1,22 @@
+@media only screen and (min-width: 64em) {
+    /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+
+
+    article p.town-article {
+        width: 800px;
+        height: auto;
+        margin: auto;
+
+    }
+    article p.town-article img {
+        width: 40%;
+        float:right;
+    }
+
+    nav button { display:none; }
+    
+    nav ul.hide {display: block;}
+
+    section.forecast { display: inline-table; }
+
+}
